@@ -4,7 +4,7 @@
 - Nicole Molineros S.
 
 ## Project Description
-This project is a data sonification system that visualizes and sonifies the fluctuations of a currency over time using Processing and Pure Data. The goal was to create an interactive experience where the data from a public dataset is not only visualized graphically but also translated into sound, making it easier to perceive patterns and changes in the data through both visual and auditory channels.
+This project is a data sonification system that visualizes and sonifies the fluctuations of currencies over time using Processing and Pure Data. The goal was to create an interactive experience where the data from a public dataset is not only visualized graphically but also translated into sound, making it easier to perceive patterns and changes in the data through both visual and auditory channels.
 ## Requirements
 - The use of **Processing** for graphical visualization of data.
 - The use of **Pure Data** for real-time sound generation and sonification.
@@ -14,8 +14,11 @@ This project is a data sonification system that visualizes and sonifies the fluc
 - A video demonstration showcasing the project in action.
 
 ## Dataset Used
-The project uses historical exchange rate data sourced from a public dataset available on [Kaggle](https://www.kaggle.com). 
-The data includes exchange rates over a specified period, which are visualized and sonified.
+The project uses historical foreign currency rates data sourced from a public dataset available on [Kaggle]([https://www.kaggle.com](https://www.kaggle.com/discussions/general/234811)). 
+The data includes currency rates over a specified period, which are visualized and sonified.
 
 ## Youtube Link
-TBD
+[Project Demo](https://youtu.be/s906Tf0J4tk)
+
+## Justification
+This project was designed using **Processing** and **Pure Data** due to their flexibility in handling real-time visual and auditory interactions. By leveraging **Open Sound Control (OSC)**, it is possible to establish seamless communication between the data visualization in Processing and the sound generation in Pure Data.
